@@ -30,5 +30,5 @@ console.log('Yargs: ', argv);
 console.log('Base yargs: ', argv.base);
 
 crearArchivoTabla( argv.b, argv.l, argv.h )
-        .then(nombreArchivo => console.log(nombreArchivo.random))
+        .then(nombreArchivo => console.log(nombreArchivo))
         .catch(err => console.log(err));
